@@ -1,11 +1,11 @@
 # Site settings
 title: Wang Rui
-SEOTitle: WR 的博客 | Hux Blog
+SEOTitle: WR 的博客 | WR Blog
 header-img: img/home-bg.jpg
 email:
 description: "这里是 @wr 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
 keyword: "wangrui的博客, Wang Rui Blog, 博客, 个人网站, 互联网, Web, PHP, GO, 操作系统, 计算机组成原理"
-url: "https://huangxuan.me" # your host, for absolute URL
+url: "https://wang1309.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: wr
 
 # Netease settings
 netease_comment: false
