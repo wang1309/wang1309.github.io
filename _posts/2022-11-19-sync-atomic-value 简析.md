@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      "Sync Atomic Value 简析"
+subtitle:   "Sync Atomic Value"
+date:       2022-11-19 11:00:00
+author:     "WR"
+hidden: false
+tags:
+- Sync
+- Atomic
+- Go
+---
+
 在 Go 语言标准库中，`sync/atomic`包将底层硬件提供的原子操作封装成了 Go 的函数。但这些操作只支持几种基本数据类型，因此为了扩大原子操作的适用范围，Go 语言在 1.4 版本的时候向`sync/atomic`包中添加了一个新的类型`Value`。此类型的值相当于一个容器，可以被用来“原子地"存储（Store）和加载（Load）**任意类型**的值。
 
 ## 历史起源
