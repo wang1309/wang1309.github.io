@@ -23,3 +23,5 @@ tags:
 然后使用命令过滤mysql数据包：tcp.dstport == 3306 and mysql.query
 
 <img width="857" alt="image" src="https://user-images.githubusercontent.com/20272951/222939549-62020afe-e2cb-4a4c-9654-630ec01aee42.png">
+
+引用：https://callmejiagu.github.io/2018/10/26/WireShark-%E5%88%86%E6%9E%90MySQL%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8C%85%EF%BC%88%E4%BA%8C%EF%BC%89/
